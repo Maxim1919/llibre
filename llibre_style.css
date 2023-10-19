@@ -1,0 +1,161 @@
+:root {
+    --color1: antiquewhite;
+    --color2: rgb(236, 212, 180);
+    --color3: rgb(43, 27, 3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--color1);
+}
+
+#portada {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/digref.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 134%;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    border: 5px solid rgb(92, 185, 185);
+    text-shadow: 5px 5px 5px;
+}
+
+#nom {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+}
+
+#titol {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    width: 100%;
+}
+
+#index { 
+    padding: 60px 10px 50px 70px;
+    font-size: 140%;
+}
+
+.capitol {
+    list-style-type: upper-roman;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.capitol ol {
+    margin-left: 40px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--color2);
+    position: fixed;
+    top: 0;
+}
+
+header li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+header ul {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(0, -50%);
+}
+
+#index li {
+    width: 110px;
+}
+
+#index a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+#index a:hover{
+    color: red;
+}
+
+#index a:active {
+    color: green;
+}
+
+#index a:visited {
+    color: var(--color3);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+main {
+    margin-top: 60px;
+    padding: 30px;
+}
+
+main h2 {
+    margin-top: 10px;
+}
+
+main p {
+    margin: 10px 0 10px;
+    font-size: 1.05rem;
+    align-items: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    width: 70%;
+    background-color: var(--color2);
+    margin-left: 15%;
+    height: 70px;
+    position: relative;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(43, 27, 3);
+}
+
+footer ul {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#descripcio, #argumentacio, #conclusio {
+    padding-top: 50px;
+}
